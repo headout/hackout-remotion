@@ -7,7 +7,7 @@ export const RemotionRoot: React.FC = () => {
 	const timerInMinutes = 1;
 	return (
 		<Composition
-			id="timer"
+			id="Timer"
 			component={Timer}
 			durationInFrames={timerInMinutes * 60 * 30}
 			fps={30}

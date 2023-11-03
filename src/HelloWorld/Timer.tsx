@@ -17,7 +17,7 @@ export const Timer: React.FC = () => {
 					color: '#FECD1A',
 					fontSize: 300,
 					fontFamily: loadFont().fontFamily,
-					transform: 'translate(26%, 30%)',
+					transform: 'translate(24%, 35%)',
 				}}
 			>
 				{minutes < 10 ? 0 : ''}
